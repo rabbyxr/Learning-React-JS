@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* @theme             Use Tailwind theme values
+@layer                Group custom CSS logically
+@layer components     Define reusable UI classes
+@utility              Define your own one-line utility classes
+
+$ cd $ 
+cd /c/Users/rabby/OneDrive/Desktop/"React Course 1"/"Traversy Media"
+
+ */  
+
+@utility big-t{
+    @apply text-5xl font-bold text-center text-neutral-800 my-6 ;
+}
+@utility flex-center{
+    @apply flex justify-center items-center ;
+}
+@utility flex-center-col{
+@apply flex flex-col items-center justify-center ;
+}
+
+@utility btn{
+    @apply px-5 py-2 bg-black text-white rounded-xl text-xl font-medium shadow-black hover:shadow-2xl hover: opacity-80 ;
+}
